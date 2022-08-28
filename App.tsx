@@ -4,6 +4,8 @@ import theme from './src/global/styles/theme';
 import {useFonts , Roboto_400Regular, Roboto_700Bold, Roboto_100Thin_Italic} from '@expo-google-fonts/roboto'
 import { Home } from './src/pages/Home';
 import * as SplashScreen from 'expo-splash-screen';
+import { Signin } from './src/pages/Signin';
+import { Signup } from './src/pages/Signup';
 
 const App = () => {
 
@@ -25,7 +27,7 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      <Signup />
     </ThemeProvider>
   );
 };

@@ -52,13 +52,13 @@ margin-left: 17px;
 export const UserGreeting = styled.Text`
 color: ${({theme})=> theme.colors.gray800 };
 font-size: ${RFValue(18)}px;
-font-family: ${({theme}) => theme.fonsts.regular};
+font-family: ${({theme}) => theme.fonts.regular};
 `;
 
 export const UserName = styled.Text`
 color: ${({theme})=> theme.colors.gray800 };
 font-size: ${RFValue(18)}px;
-font-family: ${({theme}) => theme.fonsts.regular};
+font-family: ${({theme}) => theme.fonts.regular};
 font-weight: bold;
 
 `;
